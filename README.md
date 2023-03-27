@@ -22,4 +22,4 @@ var data = {
 };
 ```
 
-`7` Run with `node main.js` commnad.
+`7` Run with `node main.js` command.
