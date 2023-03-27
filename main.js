@@ -1,23 +1,25 @@
-function shortenUrl(longUrl) {
-  var accessToken = 'TOKEN';
-  var apiUrl = 'https://api-ssl.bitly.com/v4/shorten';
+const longUrl = 'YOUR_URL';
 
-  var request = new XMLHttpRequest();
-  request.open('POST', apiUrl);
-  request.setRequestHeader('Authorization', 'Bearer ' + accessToken);
-  request.setRequestHeader('Content-Type', 'application/json');
+const accessToken = 'TOKEN';
 
-  request.onreadystatechange = function() {
-    if (request.readyState === 4 && request.status === 200) {
-      var response = JSON.parse(request.responseText);
-      var shortUrl = response.link;
-      console.log(shortUrl);
-    }
-  }
+const apiUrl = `https://api-ssl.bitly.com/v4/shorten`;
 
-  var data = {
-    "long_url": longUrl
-  };
+const headers = {
+  'Authorization': `Bearer ${accessToken}`,
+  'Content-Type': 'application/json',
+};
 
-  request.send(JSON.stringify(data));
-}
+const body = {
+  long_url: longUrl,
+};
+
+fetch(apiUrl, {
+  method: 'POST',
+  headers: headers,
+  body: JSON.stringify(body),
+})
+.then(response => response.json())
+.then(data => {
+  const shortUrl = data.link;
+  console.log(shortUrl);
+});
