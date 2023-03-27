@@ -2,17 +2,24 @@
 
 ## Configuration
 `1` Go to [Bitly][https://bitly.com/a/sign_up] and click the "Sign Up" button in the upper right corner.
+
 `2` In your Bitly account dashboard, go to the "**Settings**" page.
+
 `3` On the Settings page, click the "**API**" tab.
+
 `4` Click on "**Generate token**" Button.
+
 `5` Replace the token with this
+
 ```js
 var accessToken = 'TOKEN'
 ```
-`7` Replace your URL with this
+
+`6` Replace your URL with this
 ```js
 var data = {
   "long_url": longUrl
 };
 ```
+
 `7` Run with `node main.js` commnad.
