@@ -1,5 +1,7 @@
 <h1 align="center">URL Shorter</h1>
 
+When you run this code, it should log the shortened URL to the console. Alternatively, you can run this code in a browser console to see the result in the browser console
+
 ## Configuration
 `1` Go to **[Bitly](https://bitly.com/a/sign_up)** and try to "**Sign Up**"
 
