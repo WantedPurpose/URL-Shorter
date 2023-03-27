@@ -9,13 +9,13 @@
 
 `4` Click on "**Generate token**" Button.
 
-`5` Replace the token with this
+`5` Replace the token
 
 ```js
 var accessToken = 'TOKEN'
 ```
 
-`6` Replace your URL with this
+`6` Replace your URL
 ```js
 var data = {
   "long_url": longUrl
