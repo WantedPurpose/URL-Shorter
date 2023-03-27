@@ -12,7 +12,7 @@
 `5` Copy the token and Replace it :
 
 ```js
-var accessToken = 'TOKEN'
+const accessToken = 'TOKEN'
 ```
 
 `6` Replace your URL :
