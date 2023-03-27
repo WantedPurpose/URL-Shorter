@@ -17,9 +17,7 @@ var accessToken = 'TOKEN'
 
 `6` Replace your URL :
 ```js
-var data = {
-  "long_url": longUrl
-};
+const longUrl = 'YOUR_URL'
 ```
 
 `7` Run with `node main.js` command.
