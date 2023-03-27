@@ -20,4 +20,4 @@ const accessToken = 'TOKEN'
 const longUrl = 'YOUR_URL'
 ```
 
-`7` Run with `node main.js` command.
+`7` Run with `node main.js` command
