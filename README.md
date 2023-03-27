@@ -1,7 +1,7 @@
 <h1 align="center">URL Shorter</h1>
 
 ## Configuration
-`1` Go to **[Bitly](https://bitly.com/a/sign_up)** and click the "**Sign Up**".
+`1` Go to **[Bitly](https://bitly.com/a/sign_up)** and try to "**Sign Up**".
 
 `2` In your Bitly account dashboard, go to the "**Settings**" page.
 
